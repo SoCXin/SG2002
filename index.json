@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"SG2002",
+    "title": "sophon SG2002 SoC",
+    "description":"sophon AI SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"C906",
+        "Fmax":1024,
+        "DMIPS": 0,
+        "CoreMark": 0
+    },
+    "manufacturer": {
+        "vendor":"sophon",
+        "homepage":"https://sophon.cn/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/SG2002.git"
+    },
+    "version":"0.1.0",
+    "series":["SG2002","SG2000"],
+    "package":["QFN88"],
+    "peripheral": ["USB2.0","eMMC","Codec","MIPI CSI","MIPI DSI"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 0,
+        "CDM": 0
+    },
+    "keywords": [
+        "C906",
+        "sophon",
+        "USB2.0","eMMC5.0","Codec","MIPI CSI","MIPI DSI"
+    ]
+}
+
