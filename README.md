@@ -27,5 +27,8 @@
 
 ## [选型建议](https://github.com/SoCXin)
 
+SG2002相较于[SG2000](https://milkv.io/zh/duo-s)，拥有更小的封装和DRAM，更少的IO，但拥有更强的NPU
+
 * 相关竞品：[RV1106](https://github.com/SoCXin/RV1106)、[V851S](https://github.com/SoCXin/V851S)
 * 上代产品：[CV1800B](https://github.com/SoCXin/CV1800B)
+
