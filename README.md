@@ -11,19 +11,26 @@
 
 芯片内集成一个 8 位元的 MCU 子系统, 可替代一般外挂的 MCU 以达到省 BOM cost 及功耗的目的。
 
+[![sites](docs/arch.png)](https://milkv.io/zh/chips/sg2002)
+
 ### 关键参数
 
-* 1 x C906@1GHz + 1 x C906@700MHz
+* C906@1GHz(或A53) + 1 x C906@700MHz
 * 8051@6KB SRAM
 * 1 TOPS@INT8
-* Sip DRAM 256M
+* Sip DRAM 256MB
+* 10M/100M Ethernet MAC PHY
 * QFN88 9mmx9mmx0.9mm
-
 
 ## [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
 * [参考文档](docs/)
+
+### 开发板
+
+* [LicheeRV-Nano](https://github.com/SoCXin/LicheeRV-Nano-Build)
+* [Milk-V Duo](https://milkv.io/zh/duo)
 
 ## [选型建议](https://github.com/SoCXin)
 
